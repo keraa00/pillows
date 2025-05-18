@@ -52,7 +52,7 @@ export default function Header() {
           </div>
 
           {/* Logo - centered absolutely on mobile */}
-          <div className="absolute left-1/2 transform -translate-x-1/2 md:static md:transform-none">
+          <div className="absolute left-1/2 transform -translate-x-1/2 md:static md:transform-none cursor-pointer">
             <img
               src={logo}
               alt="Logo"
@@ -84,9 +84,15 @@ export default function Header() {
 
           {/* Right icons */}
           <div className="flex items-center space-x-4">
-            <span className="text-sm font-medium hover:underline">search</span>
-            <span className="text-sm font-medium hover:underline">user</span>
-            <span className="text-sm font-medium hover:underline">cart</span>
+            <span className="text-sm font-medium hover:underline cursor-pointer">
+              search
+            </span>
+            <span className="text-sm font-medium hover:underline cursor-pointer">
+              user
+            </span>
+            <span className="text-sm font-medium hover:underline cursor-pointer">
+              cart
+            </span>
           </div>
         </div>
 
