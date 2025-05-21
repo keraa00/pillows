@@ -54,7 +54,7 @@ export default function Hero2() {
         </div>
       </div>
 
-      <div className="px-4 sm:px-8 md:px-16 mt-8 bg-[#F9F7F6]">
+      <div className="p-4 md:p-8 sm:px-8 md:px-16 mt-4 bg-[#F9F7F6] md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-2xl mx-auto">
         <div className="flex flex-col md:flex-row justify-center gap-x-4 gap-y-3 text-[#1F3951] text-sm sm:text-base">
           {features.map((feature, idx) => (
             <div
