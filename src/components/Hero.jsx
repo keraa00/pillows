@@ -28,7 +28,7 @@ export default function Hero2() {
           </h1>
 
           <p
-            className="sm:text-xl md:text-2xl mb-2 text-sm sm:text-base italic font-semibold"
+            className="sm:text-xl md:text-2xl mb-2 text-sm sm:text-base italic font-semibold font-[Bodoni-Moda]"
             style={{ color: "#406C93" }}
           >
             Experience hotel relaxation in the comfort of your home.
