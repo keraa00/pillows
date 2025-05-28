@@ -72,7 +72,7 @@ export default function Reviews() {
   }, []);
 
   return (
-    <div className="mt-20 px-4">
+    <div className="mt-20 p-16 bg-[#EEF6FA]">
       <div className="flex flex-col items-center mb-6">
         <img src={sleepIcon} alt="icon" className="w-10 h-10 mb-2" />
         <p className="text-3xl font-bold text-[#1F3951]">Happy Sleepers.</p>
@@ -115,6 +115,11 @@ export default function Reviews() {
             }`}
           ></button>
         ))}
+      </div>
+      <div className="flex justify-center gap-2 mt-4">
+        <button className="md:text-md p-4 mt-6 rounded-md text-sm lg:text-md text-[#406C93]  hover:bg-gray-800 hover:text-[#406C93] transition uppercase border font-semibold border-[#406C93] tracking-widest">
+          Read all reviews
+        </button>
       </div>
     </div>
   );

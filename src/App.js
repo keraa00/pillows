@@ -9,10 +9,10 @@ import Reviews from "./components/Reviews";
 function App() {
   return (
     <>
-      {/* <Header />
+      <Header />
       <Hero />
       <Products />
-      <Finder /> */}
+      <Finder />
       <Reviews />
     </>
   );
