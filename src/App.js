@@ -4,14 +4,16 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Products from "./components/Products";
 import Finder from "./components/Finder";
+import Reviews from "./components/Reviews";
 
 function App() {
   return (
     <>
-      <Header />
+      {/* <Header />
       <Hero />
       <Products />
-      <Finder />
+      <Finder /> */}
+      <Reviews />
     </>
   );
 }
