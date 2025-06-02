@@ -7,6 +7,7 @@ import Finder from "./components/Finder";
 import Reviews from "./components/Reviews";
 import Hotel from "./components/Hotel";
 import Support from "./components/Support";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Reviews />
       <Hotel />
       <Support />
+      <Footer />
     </>
   );
 }
