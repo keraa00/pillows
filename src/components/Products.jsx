@@ -45,7 +45,7 @@ export default function Products() {
         <p className="mt-1 flex justify-center text-center text-3xl text-[#1F3951] font-bold tracking-wider">
           What kind of sleeper are you?
         </p>
-        <div className="flex flex-wrap justify-center gap-12 mb-6 mt-6 font-thin">
+        <div className="flex flex-wrap justify-center gap-14 mb-6 mt-6 font-thin">
           {[
             "Back sleeper",
             "Side sleeper",
@@ -63,11 +63,14 @@ export default function Products() {
         </div>
         <div className="flex flex-wrap justify-center gap-6">
           {pillowData.map((pillow, index) => (
-            <div key={index} className="flex flex-col items-center w-48">
+            <div
+              key={index}
+              className="flex flex-col items-center w-52 overflow-hidden"
+            >
               <img
                 src={pillow.image}
                 alt="pillow product"
-                className="w-auto h-60 object-cover cursor-pointer"
+                className="w-auto h-[35vh] object-cover hover:scale-105 transition-transform duration-300 cursor-pointer"
               />
               <div>
                 <p className="p-1 text-[#122230] font-semibold hover:underline cursor-pointer">

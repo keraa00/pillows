@@ -80,12 +80,12 @@ const Footer = () => {
           </div>
           <h4 className="font-bold mb-2">Let’s Be Friends</h4>
           <div className="flex space-x-3 text-[#1F3951] text-lg">
-            <FaFacebookF />
-            <FaInstagram />
-            <FaPinterestP />
-            <FaTwitter />
-            <FaYoutube />
-            <FaGoogle />
+            <FaFacebookF className="cursor-pointer hover:text-[#406C93]" />
+            <FaInstagram className="cursor-pointer hover:text-[#406C93]" />
+            <FaPinterestP className="cursor-pointer hover:text-[#406C93]" />
+            <FaTwitter className="cursor-pointer hover:text-[#406C93]" />
+            <FaYoutube className="cursor-pointer hover:text-[#406C93]" />
+            <FaGoogle className="cursor-pointer hover:text-[#406C93]" />
           </div>
         </div>
       </div>

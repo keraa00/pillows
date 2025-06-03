@@ -112,7 +112,7 @@ export default function Hotel() {
           </div>
         ))}
       </div>
-      <div className="flex justify-center underline uppercase mt-6 tracking-wider text-[#1F3951] font-[DM-Sans] cursor-pointer">
+      <div className="flex justify-center underline uppercase mt-6 tracking-wider text-[#1F3951] font-[DM-Sans] cursor-pointer hover:text-[#406C93]">
         SEE ALL HOTEL BRANDS
       </div>
     </>

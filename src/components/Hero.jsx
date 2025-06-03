@@ -20,9 +20,9 @@ export default function Hero2() {
         style={{ backgroundImage: `url(${heroImg})` }}
       >
         {/* Text Content */}
-        <div className="w-full max-w-sm sm:max-w-lg md:max-w-2xl lg:max-w-2xl px-4 sm:px-8 md:px-16 text-white">
+        <div className="w-full max-w-sm sm:max-w-lg md:max-w-2xl lg:max-w-2xl px-4 sm:px-8 md:px-12 text-white">
           <h1
-            className="text-4xl sm:text-5xl md:text-7xl font-extrabold mb-2"
+            className="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-2"
             style={{ color: "#1F3951" }}
           >
             Shop Hotel Pillows
@@ -43,13 +43,14 @@ export default function Hero2() {
             chains: Marriott®, Hampton Inn®, Hilton®, Four Seasons®,
             Ritz-Carlton®, and so much more!
           </p>
-          <div className="flex flex-col sm:flex-row gap-2 md:gap-8 w-full">
+          <div className="flex flex-col sm:flex-row gap-0 md:gap-8 w-full -mb-16">
             <Button
               text="Shop Hotel Pillows"
               txtColor="#406C93"
               borderColor="#406C93"
               hoverBgColor="#406C93"
               hoverTxtColor="#FFFF"
+              className="-mb-2 md:mb-0"
             />
 
             <Button
