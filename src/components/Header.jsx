@@ -1,7 +1,6 @@
 import { useState } from "react";
 import veteranIcon from "../assets/img/veteran-icon.svg";
 import logo from "../assets/img/pillows-logo.png";
-import { FaCartPlus, FaRegUser, FaSearch, FaUser } from "react-icons/fa";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -86,7 +85,6 @@ export default function Header() {
           {/* Right icons */}
           <div className="flex items-center space-x-4">
             <span className="text-sm font-medium hover:underline cursor-pointer">
-              {/* <FaSearch /> */}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -98,7 +96,6 @@ export default function Header() {
               </svg>
             </span>
             <span className="text-sm font-medium hover:underline cursor-pointer">
-              {/* <FaUser /> */}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -110,7 +107,6 @@ export default function Header() {
               </svg>
             </span>
             <span className="text-sm font-medium hover:underline cursor-pointer">
-              {/* <FaCartPlus /> */}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
