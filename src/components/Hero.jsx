@@ -3,6 +3,7 @@ import deliveryImg from "../assets/img/delivery.svg";
 import bedImg from "../assets/img/bed.svg";
 import returnImg from "../assets/img/return.svg";
 import priceImg from "../assets/img/price.svg";
+import Button from "./Button";
 
 export default function Hero2() {
   const features = [
@@ -42,14 +43,23 @@ export default function Hero2() {
             chains: Marriott®, Hampton Inn®, Hilton®, Four Seasons®,
             Ritz-Carlton®, and so much more!
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 md:gap-8 w-full">
-            <button className="md:text-lg p-2 rounded-md text-sm text-black bg-[rgb(64,108,147,0.24)] hover:bg-gray-800 hover:text-[#406C93] transition uppercase border font-bold border-[#406C93]">
-              Shop hotel pillows
-            </button>
+          <div className="flex flex-col sm:flex-row gap-2 md:gap-8 w-full">
+            <Button
+              text="Shop Hotel Pillows"
+              txtColor="#406C93"
+              borderColor="#406C93"
+              hoverBgColor="#406C93"
+              hoverTxtColor="#FFFF"
+            />
 
-            <button className="md:text-lg p-2 rounded-md text-sm text-black bg-[rgb(64,108,147,0.24)] hover:bg-gray-800 hover:text-[#406C93] transition uppercase border font-bold border-[#406C93]">
-              Find your dream pillow
-            </button>
+            <Button
+              text="Find your dream pillow"
+              txtColor="#406C93"
+              borderColor="#406C93"
+              hoverBgColor="#406C93"
+              hoverTxtColor="#FFFF"
+              className="font-extrabold"
+            />
           </div>
         </div>
       </div>

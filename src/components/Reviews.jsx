@@ -1,5 +1,6 @@
 import { useRef, useState, useEffect } from "react";
 import sleepIcon from "../assets/img/zzz.svg";
+import Button from "./Button";
 
 const reviewsData = [
   {
@@ -117,9 +118,13 @@ export default function Reviews() {
         ))}
       </div>
       <div className="flex justify-center gap-2 mt-4">
-        <button className="md:text-md p-4 mt-6 rounded-md text-sm lg:text-md text-[#406C93]  hover:bg-gray-800 hover:text-[#406C93] transition uppercase border font-semibold border-[#406C93] tracking-widest">
-          Read all reviews
-        </button>
+        <Button
+          text="Read all reviews"
+          txtColor="#406C93"
+          borderColor="#406C93"
+          hoverBgColor="#406C93"
+          hoverTxtColor="#FFFF"
+        />
       </div>
     </div>
   );

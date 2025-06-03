@@ -2,6 +2,7 @@ import finderPillow from "../assets/img/finder-pillow.png";
 import finderImg1 from "../assets/img/finder1.png";
 import finderImg2 from "../assets/img/finder2.png";
 import finderImg3 from "../assets/img/finder3.png";
+import Button from "./Button";
 
 export default function Finder() {
   const finderImages = [
@@ -22,9 +23,14 @@ export default function Finder() {
           <p className="mt-2 text-[#1F3951] text-3xl lg:text-4xl font-bold font-[DM-Sans]">
             Find the perfect pillow for you with our Pillow Finder.
           </p>
-          <button className="md:text-md p-4 mt-6 rounded-md text-sm lg:text-md text-[#406C93] bg-[#FFFFFF] hover:bg-gray-800 hover:text-[#406C93] transition uppercase border font-semibold border-[#406C93] tracking-widest">
-            Let's get started
-          </button>
+
+          <Button
+            text="Let's get started"
+            txtColor="#406C93"
+            borderColor="#406C93"
+            hoverBgColor="#406C93"
+            hoverTxtColor="#FFFF"
+          />
         </div>
       </div>
 

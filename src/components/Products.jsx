@@ -2,6 +2,7 @@ import Pillow1 from "../assets/img/pillow1.png";
 import Pillow2 from "../assets/img/pillow2.png";
 import Pillow3 from "../assets/img/pillow3.jpg";
 import Pillow4 from "../assets/img/pillow4.jpg";
+import Button from "./Button";
 
 export default function Products() {
   const pillowData = [
@@ -79,9 +80,13 @@ export default function Products() {
           ))}
         </div>
         <div className="flex justify-center mt-4">
-          <button className="md:text-md p-2 rounded-md text-sm text-black bg-[rgb(64,108,147,0.24)] hover:bg-gray-800 hover:text-[#406C93] transition uppercase border font-bold border-[#406C93]">
-            SHOP ALL BACK SLEEPER PILLOWS
-          </button>
+          <Button
+            text=" SHOP ALL BACK SLEEPER PILLOWS"
+            txtColor="#406C93"
+            borderColor="#406C93"
+            hoverBgColor="#406C93"
+            hoverTxtColor="#FFFF"
+          />
         </div>
       </div>
     </>

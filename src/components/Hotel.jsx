@@ -1,6 +1,7 @@
 import strechImg from "../assets/img/strech.jpeg";
 import badgeIcon from "../assets/img/badge.svg";
 import hotel1 from "../assets/img/hotel1.png";
+import Button from "./Button";
 
 export default function Hotel() {
   const brands = [
@@ -84,9 +85,13 @@ export default function Hotel() {
             </div>
           </div>
           <div className="flex justify-center">
-            <button className="md:text-md p-4 mt-6 rounded-md text-sm lg:text-md text-[#406C93]  hover:bg-gray-800 hover:text-[#406C93] transition uppercase border font-semibold border-[#406C93] tracking-widest">
-              SHOP ALL HOLIDAY INN® BEDDING
-            </button>
+            <Button
+              text="SHOP ALL HOLIDAY INN® BEDDING"
+              txtColor="#406C93"
+              borderColor="#406C93"
+              hoverTxtColor="#FFFFFF"
+              hoverBgColor="#406C93"
+            />
           </div>
         </div>
       </div>
@@ -107,7 +112,7 @@ export default function Hotel() {
           </div>
         ))}
       </div>
-      <div className="flex justify-center underline uppercase mt-6 tracking-wider text-[#1F3951] font-[DM-Sans]">
+      <div className="flex justify-center underline uppercase mt-6 tracking-wider text-[#1F3951] font-[DM-Sans] cursor-pointer">
         SEE ALL HOTEL BRANDS
       </div>
     </>
