@@ -62,24 +62,24 @@ export default function Header() {
 
           {/* Desktop nav center */}
           <div className="hidden md:flex space-x-6 flex-1 justify-center">
-            <a href="#" className="text-sm font-medium hover:underline">
+            <button className="text-sm font-medium hover:underline">
               Home
-            </a>
-            <a href="#" className="text-sm font-medium hover:underline">
+            </button>
+            <button className="text-sm font-medium hover:underline">
               Shop
-            </a>
-            <a href="#" className="text-sm font-medium hover:underline">
+            </button>
+            <button className="text-sm font-medium hover:underline">
               About
-            </a>
-            <a href="#" className="text-sm font-medium hover:underline">
+            </button>
+            <button className="text-sm font-medium hover:underline">
               Blog
-            </a>
-            <a href="#" className="text-sm font-medium hover:underline">
+            </button>
+            <button className="text-sm font-medium hover:underline">
               FAQs
-            </a>
-            <a href="#" className="text-sm font-medium hover:underline">
+            </button>
+            <button className="text-sm font-medium hover:underline">
               Support
-            </a>
+            </button>
           </div>
 
           {/* Right icons */}
@@ -123,24 +123,24 @@ export default function Header() {
         {/* Mobile dropdown */}
         {mobileMenuOpen && (
           <div className="md:hidden mt-3 px-4 space-y-2">
-            <a href="#" className="block text-sm font-medium hover:underline">
+            <button className="block text-sm font-medium hover:underline">
               Home
-            </a>
-            <a href="#" className="block text-sm font-medium hover:underline">
+            </button>
+            <button className="block text-sm font-medium hover:underline">
               Shop
-            </a>
-            <a href="#" className="block text-sm font-medium hover:underline">
+            </button>
+            <button className="block text-sm font-medium hover:underline">
               About
-            </a>
-            <a href="#" className="block text-sm font-medium hover:underline">
+            </button>
+            <button className="block text-sm font-medium hover:underline">
               Blog
-            </a>
-            <a href="#" className="block text-sm font-medium hover:underline">
+            </button>
+            <button className="block text-sm font-medium hover:underline">
               FAQs
-            </a>
-            <a href="#" className="block text-sm font-medium hover:underline">
+            </button>
+            <button className="block text-sm font-medium hover:underline">
               Support
-            </a>
+            </button>
           </div>
         )}
       </div>

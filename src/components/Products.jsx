@@ -52,13 +52,12 @@ export default function Products() {
             "Stomach sleeper",
             "All position sleeper",
           ].map((type) => (
-            <a
+            <button
               key={type}
-              href="#"
               className="text-sm font-medium text-[#406C93] hover:underline"
             >
               {type}
-            </a>
+            </button>
           ))}
         </div>
         <div className="flex flex-wrap justify-center gap-6">
